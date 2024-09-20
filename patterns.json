@@ -1,0 +1,12 @@
+{
+  "include_patterns": [
+    "(prod\\sparser\\sis\\sdown)",
+    "(Issue)(.+)\\n(.+)\\n(.+)",
+    "(Prod\\s-\\sFull\\sNode\\sDown\\s-\\sProd)"
+  ],
+  "exclude_patterns": [
+    "(?:80|50)% Disk Space used on Volume\\s*/?\\s*Server\\s*:\\s*[\\w-]+",
+    "(?:80|50)% RAM used on \\s*[\\w-]+",
+    "(?:80|50)% CPU utilization on \\s*[\\w-]+"
+  ]
+}
